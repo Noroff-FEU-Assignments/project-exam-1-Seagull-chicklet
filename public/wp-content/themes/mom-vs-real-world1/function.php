@@ -7,6 +7,3 @@ function hubspot_blog_theme_enqueue_styles() {
  wp_enqueue_style( 'child-style', get_template_directory_uri() . '/style.css' 
  array('parent-style'), wp_get_theme()->get('Version'));
 }
-
-
-?>
