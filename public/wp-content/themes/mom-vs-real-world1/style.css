@@ -1,21 +1,16 @@
-/**
- * Theme Name:        Mom vs real world
- * Theme URI:        
- * Description:       simu-blog child theme
- * Version:           1.0.0
- * Author:            Tine Andersen
- * Author URI:        
- * Template:          simu-blog
- * Tags:              block-patterns, full-site-editing
- * Text Domain:       simu-blog-child
- * Tested up to:      6.4
- * Requires at least: 6.2
- * Requires PHP:      7.4
- * License:           GNU General Public License v2.0 or later
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- */
-
-/* Home Page*/
+/*
+Theme Name:   Mom vs real world
+Theme URI:    https://mom-vs-real-world1.local/wp-admin/themes.php?theme=mom-vs-real-world1
+Description:   a simu-blog child theme
+Author:       Tine Andersen
+Author URI:   
+Template:     simu-blog
+Version:      1.0.0
+License: GNU General Public License v2 or later
+Licence URI: http://www.gnu.org/licence/gpl-2.0.html
+Tags: 
+Text Domain: simublogchild
+*/
 body {
-  color: rgb(245, 89, 115);
+  background-color: aquamarine !important ;
 }
