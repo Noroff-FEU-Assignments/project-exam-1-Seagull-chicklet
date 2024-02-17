@@ -1,0 +1,50 @@
+/**
+ * Theme Name:        Mom vs real world
+ * Theme URI:        
+ * Description:       simu-blog child theme
+ * Version:           1.0.0
+ * Author:            Tine Andersen
+ * Author URI:        
+ * Template:          simu-blog
+ * Tags:              block-patterns, full-site-editing
+ * Text Domain:       simu-blog-child
+ * Tested up to:      6.4
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/*homepage*/
+a,
+.main-navigation ul.nav-menu .current_page_item > a,
+.main-navigation ul.nav-menu .current-menu-item > a,
+.main-navigation ul.nav-menu .current_page_ancestor > a,
+.main-navigation ul.nav-menu .current-menu-ancestor > a {
+  font-size: 18px;
+  color: #8b5d5d;
+}
+
+::after {
+  color: #8b5d5d;
+}
+li.wp-social-link.wp-social-link-instagram.wp-block-social-link,
+li.wp-social-link.wp-social-link-facebook.wp-block-social-link {
+  background-color: black;
+  margin-left: 400px;
+}
+
+.breadcrumbs_section {
+  position: relative;
+}
+.breadcrumbs_section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 55%;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.066);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
