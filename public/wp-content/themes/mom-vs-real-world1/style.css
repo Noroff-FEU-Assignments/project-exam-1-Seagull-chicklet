@@ -33,18 +33,3 @@ li.wp-social-link.wp-social-link-facebook.wp-block-social-link {
   background-color: black;
   margin-left: 400px;
 }
-
-.breadcrumbs_section {
-  position: relative;
-}
-.breadcrumbs_section::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 55%;
-  width: 50%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.583);
-  backdrop-filter: blur(10px);
-  z-index: 1;ß
-}

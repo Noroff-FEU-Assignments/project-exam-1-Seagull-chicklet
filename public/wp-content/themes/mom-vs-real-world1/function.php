@@ -48,3 +48,4 @@ function latest_posts_callback(){
 add_action('wp_ajax_get_latest_post', 'get_latest_post_callback');
 add_action('wp_ajax_nopriv_get_latest_post', 'get_latest_post_callback');
 
+echo do_shortcode('[smartslider3 slider="2"]');
