@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "project-exam-1-Seagull-chicklet",
+		"path": "../../../.."
+	},
+	{
+		"name": "public",
+		"path": "../../../../../../../Local Sites/mom-vs-real-world1/app/public"
+	}
+],
+  "settings": {
+    "php.validate.executablePath": ""
+  }
+}
